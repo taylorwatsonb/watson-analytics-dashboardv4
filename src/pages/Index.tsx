@@ -11,7 +11,7 @@ const Index = () => {
       <main className="flex-grow pt-24 pb-16 px-4 sm:px-6 md:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-3xl font-semibold tracking-tight mb-2 dark:text-white">Watson Analytics Dashboard</h1>
+            <h1 className="text-3xl font-semibold tracking-tight mb-2 dark:text-white">Watson Analytics Dashboard by Taylor Watson</h1>
             <p className="text-gray-600 dark:text-gray-400">
               Interactive visualization of your business metrics and actionable insights
             </p>
