@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Menu, X, BarChart3, Download, Filter, ChevronDown } from 'lucide-react';
+import { ThemeToggle } from '@/components/theme/ThemeToggle';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +32,7 @@ const Header = () => {
         <Link to="/" className="flex items-center space-x-2">
           <BarChart3 className="h-6 w-6 text-primary animate-float" />
           <span className="text-xl md:text-2xl font-medium tracking-tight">
-            Visua<span className="text-primary">lizeit</span>
+            Watson <span className="text-primary">Analytics</span>
           </span>
         </Link>
 
@@ -80,15 +81,20 @@ const Header = () => {
             <Filter className="h-4 w-4" />
             <span>Filters</span>
           </Button>
+          
+          <ThemeToggle />
         </nav>
 
         {/* Mobile menu button */}
-        <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden flex items-center text-gray-700 dark:text-gray-200 hover:text-primary transition-colors"
-        >
-          {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        <div className="md:hidden flex items-center space-x-4">
+          <ThemeToggle />
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="flex items-center text-gray-700 dark:text-gray-200 hover:text-primary transition-colors"
+          >
+            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
