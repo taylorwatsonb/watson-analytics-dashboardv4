@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { BarChart3, Github, Twitter, Linkedin } from 'lucide-react';
+import { BarChart3 } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,18 +19,6 @@ const Footer = () => {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Transforming business data into actionable insights with elegant, intuitive visualizations.
             </p>
-          </div>
-
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors">
-              <Github className="h-5 w-5" />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors">
-              <Twitter className="h-5 w-5" />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors">
-              <Linkedin className="h-5 w-5" />
-            </a>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800">
