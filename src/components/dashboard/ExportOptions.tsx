@@ -71,16 +71,16 @@ const ExportOptions = ({ onExport }: ExportOptionsProps) => {
         <div className="space-y-6">
           <div className="space-y-4">
             <Label>Export Format</Label>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {exportFormats.map((format) => (
                 <Button
                   key={format.value}
                   variant={options.format === format.value ? "default" : "outline"}
-                  className="justify-start h-auto py-3"
+                  className="justify-start h-auto py-3 w-full"
                   onClick={() => handleOptionChange('format', format.value)}
                 >
                   {format.icon}
-                  {format.label}
+                  <span className="truncate">{format.label}</span>
                 </Button>
               ))}
             </div>
