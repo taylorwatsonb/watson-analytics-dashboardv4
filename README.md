@@ -1,69 +1,112 @@
-# Welcome to your Lovable project
 
-## Project info
+# Watson Analytics Dashboard
 
-**URL**: https://lovable.dev/projects/0767b291-0830-47fb-9025-ffb029a22200
+A comprehensive business analytics dashboard built with modern web technologies, featuring interactive data visualizations, real-time metrics tracking, and professional reporting capabilities.
 
-## How can I edit this code?
+**Live Demo**: [Watson Analytics Dashboard](https://lovable.dev/projects/0767b291-0830-47fb-9025-ffb029a22200)
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- **Interactive Dashboard**: Real-time business metrics with responsive design
+- **Data Visualization**: Advanced charts and graphs using Recharts library
+- **Export Functionality**: Multi-format report generation (PDF, Excel, CSV, PNG)
+- **Dark Mode Support**: Seamless theme switching for better user experience
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Professional UI**: Clean, modern interface built with shadcn/ui components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0767b291-0830-47fb-9025-ffb029a22200) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite for fast development and optimized builds
+- **Styling**: Tailwind CSS for utility-first styling
+- **UI Components**: shadcn/ui component library
+- **Charts**: Recharts for data visualization
+- **Icons**: Lucide React for consistent iconography
+- **State Management**: React Query for efficient data fetching
+- **Routing**: React Router DOM for navigation
 
-**Use your preferred IDE**
+## 📊 Key Capabilities
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Metrics Tracking**: Revenue, conversion rates, user analytics, and order management
+- **Data Filtering**: Advanced filtering options with date range selection
+- **Insights Panel**: AI-powered business insights and recommendations
+- **Data Export**: Professional report generation in multiple formats
+- **Performance Monitoring**: Real-time dashboard updates and loading states
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎯 Project Highlights
 
-Follow these steps:
+This project demonstrates proficiency in:
+- Modern React development patterns and hooks
+- TypeScript for type-safe development
+- Responsive web design principles
+- Component-based architecture
+- Data visualization best practices
+- Professional UI/UX design implementation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+
+### Installation
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd watson-analytics-dashboard
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Create production build
+npm run build
 
-**Use GitHub Codespaces**
+# Preview production build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Responsive Design
 
-## What technologies are used for this project?
+The application is fully responsive and optimized for:
+- Desktop computers (1200px+)
+- Tablets (768px - 1199px)
+- Mobile devices (320px - 767px)
 
-This project is built with .
+## 🎨 Design System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Color Palette**: Professional blue and gray scheme with dark mode support
+- **Typography**: Clean, readable fonts with proper hierarchy
+- **Spacing**: Consistent spacing using Tailwind's spacing scale
+- **Components**: Reusable UI components following design system principles
 
-## How can I deploy this project?
+## 📈 Performance Features
 
-Simply open [Lovable](https://lovable.dev/projects/0767b291-0830-47fb-9025-ffb029a22200) and click on Share -> Publish.
+- **Lazy Loading**: Components loaded on demand
+- **Optimized Builds**: Vite's optimized bundling and tree-shaking
+- **Efficient Rendering**: React Query for smart data caching
+- **Smooth Animations**: CSS transitions and animations for better UX
 
-## I want to use a custom domain - is that possible?
+## 💼 Professional Implementation
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This dashboard showcases enterprise-level features including:
+- Professional data visualization
+- Export capabilities for business reporting
+- Responsive design for cross-device compatibility
+- Modern development practices and clean code architecture
+
+---
+
+**Developer**: Taylor Watson  
+**Portfolio**: [Your Portfolio URL]  
+**LinkedIn**: [Your LinkedIn Profile]  
+**GitHub**: [Your GitHub Profile]
