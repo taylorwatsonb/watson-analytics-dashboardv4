@@ -107,6 +107,3 @@ This dashboard showcases enterprise-level features including:
 ---
 
 **Developer**: Taylor Watson  
-**Portfolio**: [Your Portfolio URL]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**GitHub**: [Your GitHub Profile]
